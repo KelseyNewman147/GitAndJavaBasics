@@ -7,6 +7,6 @@ public class Aggressor {
     int numberOfFoes;
     String whoIsIt;
     int howDangerousAreThey;
-    Boolean isIt;
+    Boolean isItYouKnowWho;
     String spellOfChoice;
 }
