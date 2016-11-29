@@ -9,6 +9,4 @@ public class Aggressor {
     int howDangerousAreThey;
     Boolean isIt;
     String spellOfChoice;
-
-
 }
