@@ -10,13 +10,13 @@ public class FantasticBeast {
     int numberOfLegs;
     int numberOfHeads;
     String color;
-    int legitimateThreat;
+    int threatLevel;
     String outcome;
 
     public void beastIsProvoked(){
-        if (legitimateThreat < 5){
+        if (threatLevel < 5){
             outcome = "Easy, Buckbeak";
-        } else if (legitimateThreat >= 5){
+        } else if (threatLevel >= 5){
             outcome = "attack with giant talons";
         }
     }

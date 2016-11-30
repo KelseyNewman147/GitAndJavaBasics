@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82567d46-7a24-4355-b23e-e50ef4774967" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/theironyard/charlotte/Location.java" afterPath="$PROJECT_DIR$/src/com/theironyard/charlotte/Spell.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GitAndJavaBasics/com/theironyard/charlotte/Main.class" afterPath="$PROJECT_DIR$/out/production/GitAndJavaBasics/com/theironyard/charlotte/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/theironyard/charlotte/Aggressor.java" afterPath="$PROJECT_DIR$/src/com/theironyard/charlotte/Aggressor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/theironyard/charlotte/Character.java" afterPath="$PROJECT_DIR$/src/com/theironyard/charlotte/Character.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/theironyard/charlotte/FantasticBeast.java" afterPath="$PROJECT_DIR$/src/com/theironyard/charlotte/FantasticBeast.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/theironyard/charlotte/House.java" afterPath="$PROJECT_DIR$/src/com/theironyard/charlotte/House.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/theironyard/charlotte/Main.java" afterPath="$PROJECT_DIR$/src/com/theironyard/charlotte/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,8 +27,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/theironyard/charlotte/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+            <state relative-caret-position="231">
+              <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -104,9 +99,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/theironyard/charlotte/Character.java" />
         <option value="$PROJECT_DIR$/src/com/theironyard/charlotte/Aggressor.java" />
-        <option value="$PROJECT_DIR$/src/com/theironyard/charlotte/FantasticBeast.java" />
         <option value="$PROJECT_DIR$/src/com/theironyard/charlotte/House.java" />
         <option value="$PROJECT_DIR$/src/com/theironyard/charlotte/Spell.java" />
+        <option value="$PROJECT_DIR$/src/com/theironyard/charlotte/FantasticBeast.java" />
         <option value="$PROJECT_DIR$/src/com/theironyard/charlotte/Main.java" />
       </list>
     </option>
@@ -288,14 +283,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/theironyard/charlotte/FantasticBeast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/theironyard/charlotte/Character.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -312,10 +299,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/theironyard/charlotte/FantasticBeast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/theironyard/charlotte/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+        <state relative-caret-position="231">
+          <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
           <folding />
         </state>
       </provider>

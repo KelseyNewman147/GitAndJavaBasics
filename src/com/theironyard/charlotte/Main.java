@@ -29,7 +29,7 @@ public class Main {
         buckbeak.color = "silver";
         buckbeak.numberOfHeads = 1;
         buckbeak.numberOfLegs = 4;
-        buckbeak.legitimateThreat = 4;
+        buckbeak.threatLevel = 4;
 
         buckbeak.beastIsProvoked();
         System.out.println(buckbeak.outcome);
