@@ -9,4 +9,11 @@ public class House {
     int numberOfRooms;
     String houseColor;
     String headOfHouse;
+
+    public void newYear(){
+        numberOfStudents++;
+
+    }
+
+
 }

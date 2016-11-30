@@ -9,4 +9,14 @@ public class Aggressor {
     int howDangerousAreThey;
     Boolean isItYouKnowWho;
     String spellOfChoice;
+    String outcome;
+
+    public void attackedHarry(){
+        if (numberOfFoes <= 2) {
+            outcome = "Harry wins";
+        } else if (numberOfFoes > 2 ) {
+            outcome = "Harry is in distress";
+        }
+    }
+
 }

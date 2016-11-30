@@ -10,5 +10,9 @@ public class Character {
     int year;
     Boolean isWizard;
 
+    public void hadBirthday() {
+        age++;
 
+
+    }
 }
