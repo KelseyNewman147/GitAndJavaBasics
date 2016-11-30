@@ -17,9 +17,20 @@ public class FantasticBeast {
         if (threatLevel < 5){
             outcome = "Easy, Buckbeak";
         } else if (threatLevel >= 5){
-            outcome = "attack with giant talons";
+            outcome = "*attack with giant talons*";
         }
+
     }
 
+    public void cutOffHead(){
+        numberOfHeads++;
+    }
+
+    public void humanOrCentaur(){
+        if (numberOfLegs <= 2){
+            outcome = "He's a human!";
+        } else if (numberOfLegs > 2);
+            outcome = "He's a centaur!";
+    }
 
 }

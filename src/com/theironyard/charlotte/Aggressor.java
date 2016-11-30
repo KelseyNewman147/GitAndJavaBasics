@@ -19,4 +19,18 @@ public class Aggressor {
         }
     }
 
+    public void wizardsDuel(){
+        if (howDangerousAreThey <= 5){
+            outcome = "Harry can take 'em!";
+        } else if (howDangerousAreThey >= 6){
+            outcome = "Run away!";
+        }
+    }
+    public void harryFights(){
+        if (howDangerousAreThey < 5){
+            outcome = "Expelliarmus!";
+        } else if (howDangerousAreThey >= 5){
+            outcome = "Stupefy!";
+        }
+    }
 }

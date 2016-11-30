@@ -6,10 +6,10 @@ public class Main {
         Character harry = new Character();
         //describes character
         harry.name = "Harry Potter";
-        harry.age = 11;
+        harry.age = 15;
         harry.house = "Gryffindor";
         harry.isWizard = true;
-        harry.year = 1;
+        harry.year = 5;
         //call up method to age harry
         harry.hadBirthday();
         System.out.println("Harry's age is " + harry.age);
@@ -53,6 +53,53 @@ public class Main {
 
         avadaKedavra.spellCast();
         System.out.println(avadaKedavra.outcome);
+
+        gryffindor.houseCup();
+        System.out.println(gryffindor.outcome);
+
+        gryffindor.expandingCharm();
+        System.out.println("Too many students! Perform an expanding charm so we will have " + gryffindor.numberOfRooms + " rooms!");
+
+        avadaKedavra.counterCurse();
+        System.out.println(avadaKedavra.outcome);
+
+        Spell crucio = new Spell();
+        crucio.type = "unforgivable curse";
+        crucio.threatLevel = 6;
+        crucio.levelOfInjury = 5;
+
+        crucio.iveBeenHit();
+        System.out.println(crucio.outcome);
+
+        FantasticBeast hydra = new FantasticBeast();
+        hydra.numberOfHeads = 5;
+
+        hydra.cutOffHead();
+        System.out.println("Don't cut off its head! Now it has " + hydra.numberOfHeads + "!");
+
+        FantasticBeast bane = new FantasticBeast();
+        bane.numberOfLegs = 4;
+
+        bane.humanOrCentaur();
+        System.out.println("Is he a human or a centaur? " + bane.outcome + " duh");
+
+        harry.sortingHat();
+        System.out.println("You've been sorted into " + harry.outcome);
+
+        harry.owls();
+        System.out.println("You've passed your OWLs! Welcome to year " + harry.year);
+
+        Aggressor dracoMalfoy = new Aggressor();
+        dracoMalfoy.whoIsIt = "Draco";
+        dracoMalfoy.isItYouKnowWho = false;
+        dracoMalfoy.numberOfFoes = 1;
+        dracoMalfoy.howDangerousAreThey = 4;
+
+        dracoMalfoy.wizardsDuel();
+        System.out.println(dracoMalfoy.outcome);
+
+        dracoMalfoy.harryFights();
+        System.out.println(dracoMalfoy.outcome);
 
 
     }
